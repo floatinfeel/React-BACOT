@@ -12,7 +12,7 @@ const Chat = ({location}) => {
     const [room, setRoom] = useState('')
     const [message, setMassage] = useState('')
     const [messages, setMassages] = useState([])
-    const ENDPOINT = 'localhost:5000'
+    const ENDPOINT = 'https://react-bacot.herokuapp.com/'
 
     //handling join
     useEffect(() =>{
